@@ -27,4 +27,5 @@ module.exports = {
     '!src/router/index.js',
     '!**/node_modules/**',
   ],
+  testURL: 'http://localhost/', // https://github.com/jsdom/jsdom/issues/2304#issuecomment-659397398
 };
