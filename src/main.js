@@ -6,6 +6,7 @@ import router from './router';
 import vuetify from './plugins/vuetify';
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
+import store from './store'
 
 Vue.config.productionTip = false;
 
@@ -15,5 +16,6 @@ new Vue({
   router,
   components: { App },
   vuetify,
+  store,
   template: '<App/>'
 });
