@@ -39,4 +39,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 -------
 ## UPGRADES
-WebPack 4.0 is out there and 5.0 is in Beta stage. Further more update it to use one of them
+WebPack 4.0 is out there and 5.0 is in Beta stage. Further more, update it to use one of them
