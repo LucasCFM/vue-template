@@ -5,6 +5,27 @@
 > Unit & End-to-end Tests
 > Yarn
 
+## To add on package.json
+Script
+// "test:unit": "vue-cli-service test:unit"
+
+// Maybe ADD: vue-server-renderer #stnd
+// ADD: vuex (maybe nuxt)
+// // vue add vuex #stnd
+// // vuex-router-sync #stnd (https://github.com/vuejs/vuex-router-sync)
+// ADD: vuetify #stnd
+// ADD: vuetify-simple-form (IDK kinda that) #stnd
+// ADD: vue-module-decorator #stnd
+// ADD: graphQL & apollo (maybe install with vue-cli) #stnd
+// // graphql
+// // graphql-tag
+// // vue-apollo
+// // "apollo-cache-inmemory": "^1.6.0",
+// // "apollo-client": "^2.6.3",
+// // "apollo-link": "^1.2.11",
+// // "apollo-link-context": "^1.0.18",
+// // "apollo-link-http": "^1.5.14",
+// ADD: register-service-worker #stnd
 
 ## Build Setup
 
