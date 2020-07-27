@@ -7,6 +7,7 @@ import App from './App';
 import router from './router';
 import vuetify from './plugins/vuetify';
 import store from './store';
+import { sync } from 'vuex-router-sync';
 
 Vue.config.productionTip = false;
 
@@ -19,3 +20,6 @@ new Vue({
   store,
   template: '<App/>',
 });
+
+// Sync vue-router's current $route as part of vuex store's state.
+const unsync = sync(store, router) // done. Returns an unsync callback fn
