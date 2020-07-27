@@ -1,30 +1,37 @@
-# voting-wp
+# A VueJS Template
+> Vue (Vuetify + Router + Vuex)
+> WebPack 3.0
+> GraphQL
+> Unit & End-to-end Tests
+> Yarn
 
-> Front-end app for Voting project
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+yarn run build --report
 
 # run unit tests
-npm run unit
+yarn run unit
 
 # run e2e tests
-npm run e2e
+yarn run e2e
 
 # run all tests
 npm test
+
+# Custom scripts
+Use [`yarn run <SCRIPT_NAME>`](https://classic.yarnpkg.com/en/docs/cli/run/) to run scripts declared inside package.json[scripts]
 ```
 
 ## Tests
