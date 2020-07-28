@@ -8,6 +8,7 @@ import App from './App';
 import router from './router';
 import vuetify from './plugins/vuetify';
 import store from './store';
+import { createProvider } from './vue-apollo'
 
 
 Vue.config.productionTip = false;
@@ -19,7 +20,8 @@ new Vue({
   components: { App },
   vuetify,
   store,
-  template: '<App/>',
+  // apolloProvider: createProvider(),
+  template: '<App/>'
 });
 
 // Sync vue-router's current $route as part of vuex store's state.

@@ -44,6 +44,7 @@
 </template>
 
 <script>
+import ApolloExample from './components/ApolloExample';
 import HelloWorld from './components/HelloWorld';
 
 export default {
@@ -51,6 +52,7 @@ export default {
 
   components: {
     HelloWorld,
+    ApolloExample,
   },
 
   data: () => ({
